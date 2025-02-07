@@ -6,6 +6,7 @@ import Header from '@/Components/Header';
 import { GiSkills } from 'react-icons/gi';
 import Skills from '@/Components/Skills';
 import Intrio from '@/Components/Intrio';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -39,8 +40,8 @@ export default function Home() {
             { src: "/2..webp", title: "Project 11", desc: "Creative ideas transformed into reality." },
             { src: "/31.jpg", title: "Project 12", desc: "A magnificent addition to my portfolio." },
           ].map((project, index) => (
-            <div key={index} className="bg-gray-800 p-5 rounded-lg text-center">
-              <img src={project.src} alt={project.title} className="w-full h-48 object-cover rounded-lg mb-3" />
+            <div key={index} className="bg-gray-800 p-5 rounded-lnextg text-center">
+              <Image src={project.src} alt={project.title} className="w-full h-48 object-cover rounded-lg mb-3" />
               <h2 className="text-3xl font-bold">{project.title}</h2>
               <p>{project.desc}</p>
             </div>

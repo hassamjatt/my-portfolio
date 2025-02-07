@@ -132,7 +132,7 @@ const Profile = () => {
                       animate={{ opacity: 1 }}
                       transition={{ duration: 1, delay: 0.5 }}
                   >
-                      I have a strong background in both front-end and back-end development. I'm proficient in building modern, scalable web applications and focusing on performance and usability. I love problem-solving and writing clean, maintainable code. In addition to development, I'm always striving to learn new technologies and improve my skills.
+                      I have a strong background in both front-end and back-end development. I am proficient in building modern scalable web applications and focusing on performance and usability. I love problem-solving and writing clean, maintainable code. In addition to development, I am always striving to learn new technologies and improve my skills.
                   </motion.p>
               </motion.div>
 

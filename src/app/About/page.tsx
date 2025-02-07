@@ -1,5 +1,6 @@
 import Navbar from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -13,22 +14,22 @@ export default function About() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="bg-gray-800 p-5 rounded-lg">
-            <img src="/premium_photo-1661963874418-df1110ee39c1.jpeg" alt="Experience" className="w-full h-48 object-cover rounded-lg mb-3" />
+            <Image src="/premium_photo-1661963874418-df1110ee39c1.jpeg" alt="Experience" className="w-full h-48 object-cover rounded-lg mb-3" />
             <h2 className="text-3xl font-bold">Experience</h2>
             <p>3+ years of professional development experience.</p>
           </div>
           <div className="bg-gray-800 p-5 rounded-lg">
-            <img src="/aa..webp" alt="Education" className="w-full h-48 object-cover rounded-lg mb-3" />
+            <Image src="/aa..webp" alt="Education" className="w-full h-48 object-cover rounded-lg mb-3" />
             <h2 className="text-3xl font-bold">Education</h2>
-            <p>Bachelor's degree in Computer Science.</p>
+            <p>Bachelors degree in Computer Science.</p>
           </div>
           <div className="bg-gray-800 p-5 rounded-lg">
-            <img src="/image.png" alt="Experience" className="w-full h-48 object-cover rounded-lg mb-3" />
+            <Image src="/image.png" alt="Experience" className="w-full h-48 object-cover rounded-lg mb-3" />
             <h2 className="text-3xl font-bold">Experience</h2>
             <p>3+ years of professional development experience.</p>
           </div>
           <div className="bg-gray-800 p-5 rounded-lg">
-            <img src="/8.png" alt="Experience" className="w-full h-48 object-cover rounded-lg mb-3" />
+            <Image src="/8.png" alt="Experience" className="w-full h-48 object-cover rounded-lg mb-3" />
             <h2 className="text-3xl font-bold">Experience</h2>
             <p>3+ years of professional development experience.</p>
           </div>
